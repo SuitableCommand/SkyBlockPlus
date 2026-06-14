@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sniffer_egg"
+    },
+		"frame": "goal",
+    "title": "Welcome To The New Age",
+    "description": "Fish up a sniffer egg from a warm ocean"
+  },
+  "parent": "sbp:skyblock/fishful_thinking",
+  "criteria": {
+    "minecraft:sniffer_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sniffer_egg"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:sniffer_egg"
+    ]
+  ]
+}

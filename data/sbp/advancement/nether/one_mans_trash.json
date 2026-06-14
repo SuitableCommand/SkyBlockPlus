@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ancient_debris"
+    },
+    "title": "One Man's Trash",
+    "description": "Sniff out some ancient debris from netherrack in the nether"
+  },
+  "parent": "sbp:nether/root",
+  "criteria": {
+    "minecraft:ancient_debris": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ancient_debris"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:ancient_debris"]
+  ]
+}

@@ -1,0 +1,955 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 20,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "dimension": "minecraft:the_nether",
+                "block": {
+                  "blocks": [
+                    "minecraft:soul_soil",
+                    "minecraft:netherrack",
+                    "minecraft:crimson_nylium",
+                    "minecraft:warped_nylium"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "dimension": "minecraft:the_nether",
+                "block": {
+                  "blocks": [
+                    "minecraft:netherrack",
+                    "minecraft:crimson_nylium",
+                    "minecraft:warped_nylium"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ancient_debris",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "dimension": "minecraft:the_nether",
+                "block": {
+                  "blocks": [
+                    "minecraft:netherrack",
+                    "minecraft:crimson_nylium",
+                    "minecraft:warped_nylium"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+				{
+          "type": "minecraft:item",
+          "name": "minecraft:crimson_fungus",
+          "weight": 30,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": "minecraft:crimson_forest",
+                "block": {
+                  "blocks": [
+                    "minecraft:soul_soil",
+                    "minecraft:crimson_nylium"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torchflower_seeds",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": "minecraft:crimson_forest",
+                "block": {
+                  "blocks": "minecraft:crimson_nylium"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus",
+          "weight": 30,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": "minecraft:warped_forest",
+                "block": {
+                  "blocks": [
+                    "minecraft:soul_soil",
+                    "minecraft:warped_nylium"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pitcher_pod",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": "minecraft:warped_forest",
+                "block": {
+                  "blocks": "minecraft:warped_nylium"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "weight": 50,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": "minecraft:soul_sand_valley",
+                "block": {
+                  "blocks": [
+                    "minecraft:soul_soil"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+				{
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear",
+          "weight": 50,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": "minecraft:soul_sand_valley",
+                "block": {
+                  "blocks": [
+                    "minecraft:soul_soil"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magma_cream",
+          "weight": 50,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": "minecraft:basalt_deltas",
+                "block": {
+                  "blocks": [
+                    "minecraft:netherrack"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat_seeds",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "dimension": "minecraft:overworld",
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dandelion",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": [
+                  "minecraft:flower_forest",
+                  "minecraft:beach",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:desert",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:frozen_river",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:ocean",
+                  "minecraft:old_growth_spruce_taiga",
+                  "minecraft:river",
+                  "minecraft:ice_spikes",
+                  "minecraft:snowy_plains",
+                  "minecraft:snowy_taiga",
+                  "minecraft:old_growth_pine_taiga",
+                  "minecraft:snowy_beach",
+                  "minecraft:stony_shore",
+                  "minecraft:taiga",
+                  "minecraft:warm_ocean",
+                  "minecraft:windswept_forest",
+                  "minecraft:windswept_gravelly_hills",
+                  "minecraft:windswept_hills",
+                  "minecraft:windswept_savanna",
+                  "minecraft:birch_forest",
+                  "minecraft:dark_forest",
+                  "minecraft:forest",
+                  "minecraft:old_growth_birch_forest",
+                  "minecraft:bamboo_jungle",
+                  "minecraft:jungle",
+                  "minecraft:savanna",
+                  "minecraft:savanna_plateau",
+                  "minecraft:sparse_jungle",
+                  "minecraft:dripstone_caves",
+                  "minecraft:deep_dark",
+                  "minecraft:plains",
+                  "minecraft:sunflower_plains",
+                  "minecraft:meadow"
+                ],
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poppy",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": [
+                  "minecraft:flower_forest",
+                  "minecraft:beach",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:desert",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:frozen_river",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:ocean",
+                  "minecraft:old_growth_spruce_taiga",
+                  "minecraft:river",
+                  "minecraft:ice_spikes",
+                  "minecraft:snowy_plains",
+                  "minecraft:snowy_taiga",
+                  "minecraft:old_growth_pine_taiga",
+                  "minecraft:snowy_beach",
+                  "minecraft:stony_shore",
+                  "minecraft:taiga",
+                  "minecraft:warm_ocean",
+                  "minecraft:windswept_forest",
+                  "minecraft:windswept_gravelly_hills",
+                  "minecraft:windswept_hills",
+                  "minecraft:windswept_savanna",
+                  "minecraft:birch_forest",
+                  "minecraft:dark_forest",
+                  "minecraft:forest",
+                  "minecraft:old_growth_birch_forest",
+                  "minecraft:dripstone_caves",
+                  "minecraft:deep_dark",
+                  "minecraft:plains",
+                  "minecraft:sunflower_plains",
+                  "minecraft:meadow"
+                ],
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_orchid",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": "minecraft:swamp",
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:allium",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": [
+                  "minecraft:flower_forest",
+                  "minecraft:meadow"
+                ],
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:azure_bluet",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": [
+                  "minecraft:flower_forest",
+                  "minecraft:dripstone_caves",
+                  "minecraft:deep_dark",
+                  "minecraft:plains",
+                  "minecraft:sunflower_plains",
+                  "minecraft:meadow"
+                ],
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_tulip",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": [
+                  "minecraft:flower_forest",
+                  "minecraft:dripstone_caves",
+                  "minecraft:deep_dark",
+                  "minecraft:plains",
+                  "minecraft:sunflower_plains"
+                ],
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pink_tulip",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": [
+                  "minecraft:flower_forest",
+                  "minecraft:dripstone_caves",
+                  "minecraft:deep_dark",
+                  "minecraft:plains",
+                  "minecraft:sunflower_plains"
+                ],
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_tulip",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": [
+                  "minecraft:flower_forest",
+                  "minecraft:dripstone_caves",
+                  "minecraft:deep_dark",
+                  "minecraft:plains",
+                  "minecraft:sunflower_plains"
+                ],
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_tulip",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": [
+                  "minecraft:flower_forest",
+                  "minecraft:dripstone_caves",
+                  "minecraft:deep_dark",
+                  "minecraft:plains",
+                  "minecraft:sunflower_plains"
+                ],
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oxeye_daisy",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": [
+                  "minecraft:flower_forest",
+                  "minecraft:dripstone_caves",
+                  "minecraft:deep_dark",
+                  "minecraft:plains",
+                  "minecraft:sunflower_plains",
+                  "minecraft:meadow"
+                ],
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cornflower",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": [
+                  "minecraft:flower_forest",
+                  "minecraft:dripstone_caves",
+                  "minecraft:deep_dark",
+                  "minecraft:plains",
+                  "minecraft:sunflower_plains",
+                  "minecraft:meadow"
+                ],
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lily_of_the_valley",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": [
+                  "minecraft:flower_forest",
+                  "minecraft:birch_forest",
+                  "minecraft:dark_forest",
+                  "minecraft:forest",
+                  "minecraft:old_growth_birch_forest"
+                ],
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:closed_eyeblossom",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": "minecraft:pale_garden",
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt",
+                    "minecraft:pale_moss_block"
+                  ]
+                }
+              }
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": 0,
+                "max": 11999
+              },
+              "period": 24000
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:open_eyeblossom",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": "minecraft:pale_garden",
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt",
+                    "minecraft:pale_moss_block"
+                  ]
+                }
+              }
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": 12000,
+                "max": 23999
+              },
+              "period": 24000
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pink_petals",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": "minecraft:cherry_grove",
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sunflower",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": "minecraft:sunflower_plains",
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lilac",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": [
+                  "minecraft:flower_forest",
+                  "minecraft:birch_forest",
+                  "minecraft:dark_forest",
+                  "minecraft:forest",
+                  "minecraft:old_growth_birch_forest"
+                ],
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rose_bush",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": [
+                  "minecraft:flower_forest",
+                  "minecraft:birch_forest",
+                  "minecraft:dark_forest",
+                  "minecraft:forest",
+                  "minecraft:old_growth_birch_forest"
+                ],
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:peony",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": [
+                  "minecraft:flower_forest",
+                  "minecraft:birch_forest",
+                  "minecraft:dark_forest",
+                  "minecraft:forest",
+                  "minecraft:old_growth_birch_forest"
+                ],
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_clump",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": "minecraft:pale_garden",
+                "block": {
+                  "blocks": "minecraft:pale_moss_block"
+                }
+              }
+            }
+          ]
+        },
+				{
+          "type": "minecraft:item",
+          "name": "minecraft:chorus_flower",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "dimension": "minecraft:the_end",
+                "block": {
+                  "blocks": [
+                    "minecraft:end_stone"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+				{
+          "type": "minecraft:item",
+          "name": "minecraft:chorus_fruit",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "dimension": "minecraft:the_end",
+                "block": {
+                  "blocks": [
+                    "minecraft:end_stone"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+				{
+          "type": "minecraft:item",
+          "name": "minecraft:popped_chorus_fruit",
+          "weight": 5,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "dimension": "minecraft:the_end",
+                "block": {
+                  "blocks": [
+                    "minecraft:end_stone"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

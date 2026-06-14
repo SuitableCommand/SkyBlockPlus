@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond"
+    },
+    "title": "Crushing It",
+    "description": "Crush wither skeletons with a mace until one drops a diamond"
+  },
+  "parent": "sbp:nether/not_coal_bro",
+  "criteria": {
+    "minecraft:diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:diamond"]
+  ]
+}

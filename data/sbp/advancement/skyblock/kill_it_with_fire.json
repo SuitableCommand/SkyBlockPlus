@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherrack"
+    },
+    "title": "Kill It With Fire!",
+    "description": "Kill a silverfish with fire and acquire netherrack"
+  },
+  "parent": "sbp:skyblock/a_suspwitchious_cocktail",
+  "criteria": {
+    "minecraft:netherrack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherrack"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:netherrack"]
+  ]
+}

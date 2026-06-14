@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_of_the_sea"
+    },
+		"frame": "challenge",
+    "title": "Heart of the Storm",
+    "description": "Kill a drowned during a storm and get a heart of the sea"
+  },
+  "parent": "sbp:skyblock/bless_the_rains",
+  "criteria": {
+    "minecraft:heart_of_the_sea": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:heart_of_the_sea"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:heart_of_the_sea"
+    ]
+  ]
+}

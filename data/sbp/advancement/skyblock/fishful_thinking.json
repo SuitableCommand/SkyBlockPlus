@@ -1,0 +1,20 @@
+{
+  "parent": "sbp:skyblock/bless_the_rains",
+  "criteria": {
+    "went_fishing": {
+      "trigger": "minecraft:fishing_rod_hooked"
+    }
+  },
+  "display": {
+    "description": "Go fishing",
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+		"frame": "goal",
+    "title": "Fishful Thinking"
+  },
+  "requirements": [
+    ["went_fishing"]
+  ],
+  "sends_telemetry_event": true
+}

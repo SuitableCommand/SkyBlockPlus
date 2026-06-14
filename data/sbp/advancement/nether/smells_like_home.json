@@ -1,0 +1,40 @@
+{
+	"display": {
+    "icon": {
+      "id": "minecraft:soul_soil"
+    },
+    "title": "Smells Like Home",
+    "description": "Bring a sniffer to the forests of the nether and search the soil for fungus"
+  },
+  "parent": "sbp:nether/exotic_goods",
+  "criteria": {
+		"minecraft:crimson_fungus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_fungus"
+            ]
+          }
+        ]
+      }
+    },
+		"minecraft:warped_fungus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+		["minecraft:crimson_fungus"],
+		["minecraft:warped_fungus"]
+  ]
+}

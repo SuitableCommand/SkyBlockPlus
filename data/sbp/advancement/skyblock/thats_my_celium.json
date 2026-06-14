@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mycelium"
+    },
+    "title": "That's MY Celium!",
+    "description": "Buy some mycelium from a wandering trader"
+  },
+  "parent": "sbp:skyblock/green_deal",
+  "criteria": {
+    "minecraft:mycelium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mycelium"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:mycelium"]
+  ]
+}

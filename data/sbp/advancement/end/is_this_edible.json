@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_egg"
+    },
+    "title": "Is This Edible?",
+		"frame": "challenge",
+    "description": "Acquire a dragon egg"
+  },
+  "parent": "sbp:end/thats_no_endermite",
+  "criteria": {
+    "minecraft:dragon_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dragon_egg"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:dragon_egg"]
+  ]
+}

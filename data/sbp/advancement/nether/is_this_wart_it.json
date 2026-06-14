@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_wart"
+    },
+    "title": "Is This Wart It?",
+    "description": "Harvest nether wart from some nether wart blocks"
+  },
+  "parent": "sbp:nether/a_fiery_fungus",
+  "criteria": {
+    "minecraft:nether_wart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_wart"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:nether_wart"]
+  ]
+}

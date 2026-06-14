@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sand"
+    },
+    "title": "It Gets Everywhere",
+    "description": "Get some sand from a husk"
+  },
+  "parent": "sbp:skyblock/vanquisher",
+  "criteria": {
+    "minecraft:sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sand"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:sand"]
+  ]
+}

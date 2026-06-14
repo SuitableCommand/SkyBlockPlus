@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone"
+    },
+    "title": "Rock And Roll",
+    "description": "Get some cobblestone... finally"
+  },
+  "parent": "sbp:skyblock/hot_hot",
+  "criteria": {
+    "minecraft:cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cobblestone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:cobblestone"]
+  ]
+}

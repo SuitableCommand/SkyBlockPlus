@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chorus_flower"
+    },
+    "title": "Freaky Flower",
+    "description": "Sniff up a chorus flower from some end stone in the End"
+  },
+  "parent": "sbp:end/corrupting_breath",
+  "criteria": {
+    "minecraft:chorus_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chorus_flower"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:chorus_flower"]
+  ]
+}

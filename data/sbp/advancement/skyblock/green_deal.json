@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+		"frame": "goal",
+    "title": "Green Deal",
+    "description": "Get an emerald from a fox or wandering trader"
+  },
+  "parent": "sbp:skyblock/vanquisher",
+  "criteria": {
+    "minecraft:emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:emerald"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:emerald"]
+  ]
+}

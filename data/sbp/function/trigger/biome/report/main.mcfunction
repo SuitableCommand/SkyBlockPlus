@@ -1,0 +1,2 @@
+execute if data entity @s {Dimension:"minecraft:overworld"} run function sbp:trigger/biome/report/main/overworld
+execute unless data entity @s {Dimension:"minecraft:overworld"} run function sbp:trigger/biome/report/main/not_overworld

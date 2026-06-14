@@ -1,0 +1,35 @@
+{
+	"pack": {
+		"min_format": 94.1,
+		"max_format": 94.1,
+		"description": "SkyBlock Plus datapack (1.21.11) by SuitableCommand"
+	},
+	"filter": {
+		"block": [
+			{
+				"namespace": "minecraft",
+				"path": "advancement/adventure/.*"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "advancement/end/.*"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "advancement/husbandry/.*"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "advancement/nether/.*"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "advancement/story/.*"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/netherite_upgrade_smithing_template"
+			}
+		]
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "sbp:skyblock/vanquisher",
+  "criteria": {
+    "minecraft:slept_in_bed": {
+      "trigger": "minecraft:slept_in_bed"
+    }
+  },
+  "display": {
+    "description": "Take a nap",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:white_bed"
+    },
+    "title": "Sweet Dreams Are Made Of... Spiders"
+  },
+  "requirements": [
+    ["minecraft:slept_in_bed"]
+  ],
+  "sends_telemetry_event": true
+}

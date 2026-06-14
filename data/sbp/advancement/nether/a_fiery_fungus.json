@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_nylium"
+    },
+    "title": "A Fiery Fungus",
+    "description": "Craft a block of crimson nylium"
+  },
+  "parent": "sbp:nether/smells_like_home",
+  "criteria": {
+    "minecraft:crimson_nylium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_nylium"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:crimson_nylium"]
+  ]
+}

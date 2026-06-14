@@ -1,1 +1,1 @@
-execute unless data storage sbp:worldgen {starter_island_placed:1} run schedule function sbp:worldgen/starter_island/place_starter_island 2s append
+execute unless data storage sbp:worldgen {starter_island_status:"done"} run data modify storage sbp:worldgen starter_island_status set value "pending"

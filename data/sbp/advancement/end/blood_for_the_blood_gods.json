@@ -126,6 +126,20 @@
       },
       "trigger": "minecraft:player_killed_entity"
     },
+    "minecraft:camel_husk": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:camel_husk"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
     "minecraft:cat": {
       "conditions": {
         "entity": [
@@ -582,6 +596,20 @@
             "entity": "this",
             "predicate": {
               "type": "minecraft:panda"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "minecraft:parched": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:parched"
             }
           }
         ]
@@ -1215,6 +1243,9 @@
       "minecraft:camel"
     ],
     [
+      "minecraft:camel_husk"
+    ],
+    [
       "minecraft:cat"
     ],
     [
@@ -1312,6 +1343,9 @@
     ],
     [
       "minecraft:panda"
+    ],
+    [
+      "minecraft:parched"
     ],
     [
       "minecraft:parrot"

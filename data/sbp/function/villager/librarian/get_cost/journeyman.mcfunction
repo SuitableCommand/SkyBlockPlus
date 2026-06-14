@@ -122,7 +122,7 @@ scoreboard players operation #cost constant += #enchantment_level constant
 
 ## get the randomized scalar
 
-function sbp:scoreboard/generate_random
+function math:generate_random
 scoreboard players set #divisor constant 9
 scoreboard players operation #random constant /= #divisor constant
 
@@ -131,7 +131,7 @@ scoreboard players operation #cost constant *= #random constant
 
 ## get the randomized bonus
 
-function sbp:scoreboard/generate_random
+function math:generate_random
 scoreboard players set #divisor constant 20
 scoreboard players operation #random constant /= #divisor constant
 

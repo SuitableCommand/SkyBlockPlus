@@ -2,10 +2,10 @@ tag @s add processed_apprentice
 
 ## set first trade
 
-function sbp:scoreboard/generate_random
+function math:generate_random
 
-execute if score #random constant matches 0..49 run data modify entity @s Offers.Recipes[2] set value {maxUses:12,sell:{count:1,id:"minecraft:emerald"},buy:{count:4,id:"minecraft:book"},xp:10}
-execute if score #random constant matches 50..99 run data modify entity @s Offers.Recipes[2] set value {maxUses:12,sell:{count:1,id:"minecraft:lantern"},buy:{count:1,id:"minecraft:emerald"},xp:5}
+execute if score #random constant matches 001..050 run data modify entity @s Offers.Recipes[2] set value {maxUses:12,sell:{count:1,id:"minecraft:emerald"},buy:{count:4,id:"minecraft:book"},xp:10}
+execute if score #random constant matches 051..100 run data modify entity @s Offers.Recipes[2] set value {maxUses:12,sell:{count:1,id:"minecraft:lantern"},buy:{count:1,id:"minecraft:emerald"},xp:5}
 
 ## set enchanted book trade
 

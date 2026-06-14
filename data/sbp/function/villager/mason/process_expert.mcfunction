@@ -2,10 +2,10 @@ tag @s add processed_expert
 
 ## set first trade
 
-function sbp:scoreboard/generate_random
+function math:generate_random
 
-execute if score #random constant matches 0..49 run function sbp:villager/mason/process_expert/add_terracotta_trade
-execute if score #random constant matches 50..99 run function sbp:villager/mason/process_expert/add_glazed_terracotta_trade
+execute if score #random constant matches 001..050 run function sbp:villager/mason/process_expert/add_terracotta_trade
+execute if score #random constant matches 051..100 run function sbp:villager/mason/process_expert/add_glazed_terracotta_trade
 
 ## set pottery sherd trade
 

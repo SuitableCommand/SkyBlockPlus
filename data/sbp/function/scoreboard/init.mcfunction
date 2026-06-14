@@ -1,6 +1,5 @@
 ## create scoreboards
 scoreboard objectives add constant dummy
-scoreboard objectives add hurt_time dummy
 scoreboard objectives add vex_rally_delay dummy
 scoreboard objectives add left_world minecraft.custom:minecraft.leave_game
 

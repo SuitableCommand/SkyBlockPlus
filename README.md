@@ -67,8 +67,6 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Brewing Stand.** Now only craftable using cobblestone.
 
-**Cobweb.** Now craftable using string and slimeballs.
-
 **Copper Horse Armor.** Now craftable using leather horse armor and copper ingots.
 
 **Coral blocks.** Coral blocks are now craftable from the corresponding corals (2x2) or fans (3x3).
@@ -107,14 +105,6 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Dead Bush.** Now smokable from any sapling.
 
-### Smithing
-
-**Diamond Horse Armor.** Now smithable using leather horse armor and 2 diamonds.
-
-**Golden Horse Armor.** Now smithable using leather horse armor and 2 gold ingots.
-
-**Iron Horse Armor.** Now smithable using leather horse armor and 2 iron ingots.
-
 ### Trades
 
 **Armorer.** Now replicates the trades from the experimental villager trade rebalance, and offer a trim based on biome/dimension where the armorer becomes a master:
@@ -146,6 +136,8 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 **Allay.** Now created when a goat horn is used near a vex.
 
 **Breeze.** Now occasionally spawn in any windswept biome.
+
+**Cave Spider.** Now occasionally spawns in place of a spider below y=0. Cave spiders have a small chance to spawn with the weaving potion effect.
 
 **Elder Guardian.** Now created when a guardian is struck by lightning.
 

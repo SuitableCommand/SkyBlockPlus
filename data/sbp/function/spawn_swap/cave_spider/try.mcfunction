@@ -1,4 +1,5 @@
-execute as @s[y=0,dy=-64] if score @s uuid_as_percent <= #cave_spider_swap_chance constant run tag @s add swap_for_cave_spider
+data merge storage minecraft:math {random:{min:1,max:100}}
+function math:random with storage minecraft:math random
 
-execute as @s[tag=!swap_for_cave_spider] run tag @s add not_cave_spider
-execute as @s[tag=swap_for_cave_spider] run function sbp:spawn_swap/cave_spider/swap
+execute as @s[y=0,dy=-64] if score #random constant <= #cave_spider_swap_chance constant run function sbp:spawn_swap/cave_spider/swap
+tag @s add not_cave_spider

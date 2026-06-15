@@ -1,3 +1,3 @@
 scoreboard objectives add constant dummy
 
-scoreboard players set #percent constant 100
+scoreboard players set #negative_one constant -1

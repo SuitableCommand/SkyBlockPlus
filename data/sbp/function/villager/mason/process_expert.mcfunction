@@ -2,10 +2,11 @@ tag @s add processed_expert
 
 ## set first trade
 
-function math:generate_random
+data merge storage minecraft:math {random:{min:1,max:2}}
+function math:random with storage minecraft:math random
 
-execute if score #random constant matches 001..050 run function sbp:villager/mason/process_expert/add_terracotta_trade
-execute if score #random constant matches 051..100 run function sbp:villager/mason/process_expert/add_glazed_terracotta_trade
+execute if score #random constant matches 1 run function sbp:villager/mason/process_expert/add_terracotta_trade
+execute if score #random constant matches 2 run function sbp:villager/mason/process_expert/add_glazed_terracotta_trade
 
 ## set pottery sherd trade
 

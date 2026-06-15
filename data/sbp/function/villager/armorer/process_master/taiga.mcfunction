@@ -1,12 +1,13 @@
 tag @s add processed_master
 
-function math:generate_random
+data merge storage minecraft:math {random:{min:1,max:3}}
+function math:random with storage minecraft:math random
 
 ## add first armor trade if applicable (case 1 and 2 of 3)
-execute unless score #random constant matches 067..100 run data modify entity @s Offers.Recipes append value {maxUses:16,sell:{count:1,id:"minecraft:diamond_chestplate",components:{"minecraft:enchantments":{levels:{"minecraft:blast_protection":1}}}},buy:{count:18,id:"minecraft:emerald"},buyB:{count:4,id:"minecraft:diamond"},xp:30}
+execute unless score #random constant matches 1 run data modify entity @s Offers.Recipes append value {maxUses:16,sell:{count:1,id:"minecraft:diamond_chestplate",components:{"minecraft:enchantments":{"minecraft:blast_protection":1}}},buy:{count:18,id:"minecraft:emerald"},buyB:{count:4,id:"minecraft:diamond"},xp:30}
 
 ## add second armor trade if applicable (case 2 and 3 of 3)
-execute unless score #random constant matches 001..033 run data modify entity @s Offers.Recipes append value {maxUses:16,sell:{count:1,id:"minecraft:diamond_leggings",components:{"minecraft:enchantments":{levels:{"minecraft:blast_protection":1}}}},buy:{count:18,id:"minecraft:emerald"},buyB:{count:3,id:"minecraft:diamond"},xp:30}
+execute unless score #random constant matches 2 run data modify entity @s Offers.Recipes append value {maxUses:16,sell:{count:1,id:"minecraft:diamond_leggings",components:{"minecraft:enchantments":{"minecraft:blast_protection":1}}},buy:{count:18,id:"minecraft:emerald"},buyB:{count:3,id:"minecraft:diamond"},xp:30}
 
 ## add armor trim trade if applicable (case 1 and 3 of 3)
-execute unless score #random constant matches 034..066 run function sbp:villager/armorer/process_master/add_armor_trim_trade/taiga
+execute unless score #random constant matches 3 run function sbp:villager/armorer/process_master/add_armor_trim_trade/taiga

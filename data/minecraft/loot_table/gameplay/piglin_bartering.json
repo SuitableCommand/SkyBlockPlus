@@ -19,17 +19,6 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "minecraft:soul_speed"
-            }
-          ],
-          "name": "minecraft:iron_boots",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
               "function": "minecraft:set_potion",
               "id": "minecraft:fire_resistance"
             }
@@ -52,33 +41,6 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:water"
-            }
-          ],
-          "name": "minecraft:potion",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 36,
-                "min": 10
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:iron_nugget",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
@@ -90,22 +52,6 @@
           ],
           "name": "minecraft:ender_pearl",
           "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 9,
-                "min": 3
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:string",
-          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -142,11 +88,6 @@
             }
           ],
           "name": "minecraft:crying_obsidian",
-          "weight": 40
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:fire_charge",
           "weight": 40
         },
         {
@@ -204,29 +145,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8,
-                "min": 2
+                "max": 16,
+                "min": 8
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:nether_brick",
-          "weight": 40
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 12,
-                "min": 6
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:spectral_arrow",
           "weight": 40
         },
         {
@@ -259,6 +184,22 @@
             }
           ],
           "name": "minecraft:blackstone",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 16,
+                "min": 8
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:cinnabar",
           "weight": 40
         }
       ],

@@ -2,22 +2,26 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "id": "minecraft:sonic_boom",
+                "expected": true
+              }
+            ]
+          }
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:echo_shard",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "attacker",
-              "predicate": {
-                "type": "minecraft:warden"
-              }
-            }
-          ]
+          "name": "minecraft:echo_shard"
         }
-      ]
+      ],
+      "rolls": 1
     }
   ]
 }

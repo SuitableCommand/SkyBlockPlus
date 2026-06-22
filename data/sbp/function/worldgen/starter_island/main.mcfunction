@@ -1,1 +1,1 @@
-execute as @r if data storage sbp:worldgen {starter_island_status: "pending"} run function sbp:worldgen/starter_island/place_starter_island
+execute as @r if data storage minecraft:skyblock_plus {worldgen:{starter_island:"pending"}} run function sbp:worldgen/starter_island/place_starter_island

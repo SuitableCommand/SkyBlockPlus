@@ -1,1 +1,0 @@
-execute unless data storage sbp:worldgen {starter_island_status:"done"} run data modify storage sbp:worldgen starter_island_status set value "pending"

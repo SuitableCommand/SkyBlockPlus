@@ -1,27 +1,27 @@
 {
   "parent": "sbp:custom/root",
   "criteria": {
-    "minecraft:ender_dragon": {
+    "killed_dragon": {
       "conditions": {
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:ender_dragon"
+              "minecraft:entity_type": "minecraft:ender_dragon"
             }
           }
         ]
       },
       "trigger": "minecraft:player_killed_entity"
     }
-	},
+  },
   "requirements": [
     [
-      "minecraft:ender_dragon"
+      "killed_dragon"
     ]
   ],
-	"rewards": {
+  "rewards": {
     "function": "sbp:advancement/revoke/custom/kill_ender_dragon"
   }
 }

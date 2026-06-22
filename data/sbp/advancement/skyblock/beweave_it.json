@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobweb"
+    },
+    "title": "Beweave It",
+    "description": "Slay a cave spider with the weaving effect and collect a cobweb"
+  },
+  "parent": "sbp:skyblock/ooh_shiny",
+  "criteria": {
+    "minecraft:cobweb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cobweb"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:cobweb"]
+  ]
+}

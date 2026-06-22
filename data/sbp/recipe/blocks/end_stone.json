@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "blocks",
+  "category": "building",
   "group": "end_stone",
   "ingredients": [
     "minecraft:dragon_breath",

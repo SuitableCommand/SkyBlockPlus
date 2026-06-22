@@ -1,8 +1,8 @@
 {
 	"pack": {
-		"min_format": 101.1,
-		"max_format": 101.1,
-		"description": "SkyBlock Plus (26.1.2) by SuitableCommand"
+		"min_format": 107.1,
+		"max_format": 107.1,
+		"description": "SkyBlock Plus (26.2) by SuitableCommand"
 	},
 	"filter": {
 		"block": [

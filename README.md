@@ -43,7 +43,21 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Fishing (treasure).** Sniffer eggs are now a treasure item when fishing in a warm ocean biome, and enchanted books fished up from a windswept biome may now contain Wind Burst.
 
-**Piglin Bartering.** Piglins no longer give dried ghasts when bartering. Piglins now have a chance to give soul soil when bartering.
+**Piglin Bartering.** Piglins have an updated loot table as described below.
+* Enchanted Book (Soul Speed I-III) (weight 5)
+* Potion of Fire Resistance (weight 8)
+* Splash Potion of Fire Resistance (weight 8)
+* Ender Pearl (2-4) (weight 10)
+* quartz (5-12) (weight 20)
+* obsidian (weight 40)
+* crying obsidian (1-3) (weight 40)
+* leather (2-4) (weight 40)
+* soul sand (2-8) (weight 40)
+* soul soil (2-8) (weight 40)
+* nether brick (8-16) (weight 40)
+* gravel (8-16)
+* blackstone (8-16) (weight 40)
+* cinnabar (8-16) (weight 40)
 
 **Sniffer Digging.** Sniffers now dig up wheat seeds or any flowers that would normally generate naturally in the biome where it is digging. It also has a chance of digging up special items under specific conditions:
 * gold nugget (when digging in soul soil, netherrack, crimson nylium, or warped nylium in the nether)
@@ -137,7 +151,7 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Breeze.** Now occasionally spawn in any windswept biome.
 
-**Cave Spider.** Now occasionally spawns in place of a spider below y=0. Cave spiders have a small chance to spawn with the weaving potion effect.
+**Cave Spider.** Cave spiders have a small chance to spawn with the weaving potion effect.
 
 **Elder Guardian.** Now created when a guardian is struck by lightning.
 
@@ -146,6 +160,8 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 **Shulker.** Now spawns one shulker atop the end exit portal each time a player kills the ender dragon.
 
 ### Mob Behavior
+
+**Cave Spider.** Cave spiders now have a small chance of spawning with the weaving potion effect.
 
 **Ender Dragon.** The dragon's breath will now slowly convert stone-like blocks beneath it to end stone.
 

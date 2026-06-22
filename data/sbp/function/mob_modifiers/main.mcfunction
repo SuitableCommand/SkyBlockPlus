@@ -1,1 +1,2 @@
 execute as @e[type=minecraft:cave_spider,tag=!mob_modifiers_processed] run function sbp:mob_modifiers/cave_spider/try
+execute as @e[type=minecraft:wandering_trader,tag=!mob_modifiers_processed] run function sbp:mob_modifiers/wandering_trader/process

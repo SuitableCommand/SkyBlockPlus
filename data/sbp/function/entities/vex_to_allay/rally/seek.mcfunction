@@ -1,3 +1,3 @@
 tag @s add rally_seek
 scoreboard players operation @s vex_rally_delay = #vex_rally_delay constant
-function sbp:vex_conversion/rally/add_random_rally_delay
+function sbp:entities/vex_to_allay/rally/add_random_rally_delay

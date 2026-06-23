@@ -1,12 +1,9 @@
 function sbp:advancement/main
 function sbp:end_stone_conversion/main
 function sbp:end_storm/main
-function sbp:lightning_conversion/main
-function sbp:mob_modifiers/main
+function sbp:entities/main
 function sbp:scoreboard/main
 function sbp:storage/main
 function sbp:trigger/main
-function sbp:vex_conversion/main
 function sbp:villager/main
-function sbp:witch_potion_conversion/main
 function sbp:worldgen/main

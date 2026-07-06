@@ -59,6 +59,7 @@ execute as @a[scores={findbiome_soul_sand_valley=1..}] at @s run function sbp:tr
 execute as @a[scores={findbiome_sparse_jungle=1..}] at @s run function sbp:trigger/biome/sparse_jungle
 execute as @a[scores={findbiome_stony_peaks=1..}] at @s run function sbp:trigger/biome/stony_peaks
 execute as @a[scores={findbiome_stony_shore=1..}] at @s run function sbp:trigger/biome/stony_shore
+execute as @a[scores={findbiome_sulfur_caves=1..}] at @s run function sbp:trigger/biome/sulfur_caves
 execute as @a[scores={findbiome_sunflower_plains=1..}] at @s run function sbp:trigger/biome/sunflower_plains
 execute as @a[scores={findbiome_swamp=1..}] at @s run function sbp:trigger/biome/swamp
 execute as @a[scores={findbiome_taiga=1..}] at @s run function sbp:trigger/biome/taiga

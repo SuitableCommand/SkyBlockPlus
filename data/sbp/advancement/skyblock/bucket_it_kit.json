@@ -107,6 +107,16 @@
           }
         ]
       }
+    },
+		"minecraft:sulfur_cube_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sulfur_cube_bucket"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -119,6 +129,7 @@
 		["minecraft:tropical_fish_bucket"],
 		["minecraft:pufferfish_bucket"],
 		["minecraft:axolotl_bucket"],
-		["minecraft:tadpole_bucket"]
+		["minecraft:tadpole_bucket"],
+    ["minecraft:sulfur_cube_bucket"]
   ]
 }

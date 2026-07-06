@@ -1,1 +1,0 @@
-# expected input: {rolls:<int>,list:[<any>],}

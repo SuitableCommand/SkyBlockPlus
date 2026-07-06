@@ -51,6 +51,7 @@ scoreboard players enable @a findbiome_soul_sand_valley
 scoreboard players enable @a findbiome_sparse_jungle
 scoreboard players enable @a findbiome_stony_peaks
 scoreboard players enable @a findbiome_stony_shore
+scoreboard players enable @a findbiome_sulfur_caves
 scoreboard players enable @a findbiome_sunflower_plains
 scoreboard players enable @a findbiome_swamp
 scoreboard players enable @a findbiome_taiga

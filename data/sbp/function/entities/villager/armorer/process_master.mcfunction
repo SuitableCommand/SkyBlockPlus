@@ -27,7 +27,7 @@ execute if biome ~ ~ ~ #sbp:trim_biomes/bolt run data modify storage minecraft:s
 
 # select random master trade
 
-data modify storage minecraft:skyblock_plus math.rotate set value {namespace:"minecraft:skyblock_plus",path:"villager.armorer.master"}
-function math:rotate/start with storage minecraft:skyblock_plus math.rotate
+data modify storage minecraft:skyblock_plus math.spin set value {namespace:"minecraft:skyblock_plus",path:"villager.armorer.master"}
+function math:spin/start with storage minecraft:skyblock_plus math.spin
 
-data modify entity @s Offers.Recipes[8] set from storage minecraft:math rotate.list[0]
+data modify entity @s Offers.Recipes[8] set from storage minecraft:math spin.list[0]

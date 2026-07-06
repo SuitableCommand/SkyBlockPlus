@@ -5,5 +5,4 @@ function sbp:entities/main
 function sbp:scoreboard/main
 function sbp:storage/main
 function sbp:trigger/main
-function sbp:villager/main
 function sbp:worldgen/main

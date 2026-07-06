@@ -11,6 +11,8 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Nether Wart Block.** Now drops nether wart with the same distribution that a melon block drops melon, or a nether wart block if mined using a tool enchanted with Silk Touch.
 
+**Budding Amethyst.** Now drops itself in item form when mined using silk touch.
+
 **Allay.** Now drops an amethyst shard.
 
 **Bat.** Now drops an echo shard if killed by a warden's sonic blast attack.
@@ -77,6 +79,8 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 ### Crafting
 
+**Armor Trims.** Armor trims can no longer be duplicated via crafting.
+
 **Budding Amethyst.** Now craftable using amethyst blocks and an echo shard.
 
 **Brewing Stand.** Now only craftable using cobblestone.
@@ -115,35 +119,37 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Calcite.** Now blastable from nautilus shells.
 
+**Diamond.** Now blastable from coal blocks (takes 100x longer than other recipes to finish blasting)
+
 ### Smoking
 
 **Dead Bush.** Now smokable from any sapling.
 
 ### Trades
 
-**Armorer.** Now replicates the trades from the experimental villager trade rebalance, and offer a trim based on biome/dimension where the armorer becomes a master:
-* Sentry (plains biomes / default)
-* Vex (non-windswept forest biomes)
+**Armorer.** Now partially replicates the trades from the experimental villager trade rebalance, and may offer a trim as a master trade based on the biome where the armorer becomes a master:
+* Sentry (pillager outpost biomes)
+* Vex (dark forest biome)
 * Wild (jungle biomes)
-* Coast (snowy biomes)
-* Dune (desert biomes)
-* Wayfinder (non-windswept savanna biomes)
-* Raiser (swamp biomes)
-* Shaper (taiga biomes)
-* Host (taiga biomes)
+* Coast (beach and river biomes)
+* Dune (desert and badland biomes)
+* Wayfinder (trail ruins biomes)
+* Raiser (trail ruins biomes)
+* Shaper (trail ruins biomes)
+* Host (trail ruins biomes)
 * Ward (deep dark biome)
 * Silence (deep dark biome)
 * Tide (ocean biomes)
-* Snout (nether dimension)
-* Rib (nether dimension)
-* Eye (end dimension)
-* Spire (end dimension)
+* Snout (nether biomes)
+* Rib (nether biomes)
+* Eye (end biomes)
+* Spire (end highlands)
 * Flow (windswept biomes)
 * Bolt (windswept biomes)
 
-**Mason.** Now offers a random pottery sherd as an expert trade.
+**Mason.** Now offers a random pottery sherd as a master trade.
 
-**Wandering Trader.** Now offers an additional trade, selling sweet berries, glow berries, or an enchanted golden apple. Also replaces podzol trades with mycelium trades, and wheat seeds trades with cocoa beans trades.
+**Wandering Trader.** Possible trades now include cocoa beans, mycelium, sweet berries, glow berries, and enchanted golden apples. The enchanted pickaxe trade has been removed.
 
 ### Mob Spawning
 
@@ -160,8 +166,6 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 **Shulker.** Now spawns one shulker atop the end exit portal each time a player kills the ender dragon.
 
 ### Mob Behavior
-
-**Cave Spider.** Cave spiders now have a small chance of spawning with the weaving potion effect.
 
 **Ender Dragon.** The dragon's breath will now slowly convert stone-like blocks beneath it to end stone.
 

@@ -1,6 +1,4 @@
-data merge storage minecraft:skyblock_plus {worldgen:{starter_island:"done"}}
-
-setblock -4 64 -4 minecraft:structure_block
-data merge block -4 64 -4 {mode:"LOAD",integrity:1.0f,name:"sbp:starting_island",sizeX:8,sizeY:9,sizeZ:7,posX:0,posY:0,posZ:0}
-setblock -4 65 -4 minecraft:redstone_block
+place template sbp:starting_island -4 64 -4
 tp @a 0 66 0
+
+execute if block 0 64 0 minecraft:grass_block run data merge storage minecraft:skyblock_plus {worldgen:{starter_island:"done"}}

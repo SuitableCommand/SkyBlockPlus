@@ -35,7 +35,34 @@
   "effects": {
     "water_color": "#3f76e4"
   },
-  "features": [],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:purge_nether_fortress_initial/0",
+      "minecraft:purge_nether_fortress_initial/16",
+      "minecraft:purge_nether_fortress_initial/32",
+      "minecraft:purge_nether_fortress_initial/48",
+      "minecraft:purge_nether_fortress_initial/64",
+      "minecraft:purge_nether_fortress_initial/80"
+    ],
+    [],
+    [],
+    [],
+    [
+      "minecraft:purge_nether_fortress_final/0",
+      "minecraft:purge_nether_fortress_final/16",
+      "minecraft:purge_nether_fortress_final/32",
+      "minecraft:purge_nether_fortress_final/48",
+      "minecraft:purge_nether_fortress_final/64",
+      "minecraft:purge_nether_fortress_final/80"
+    ]
+  ],
   "has_precipitation": false,
   "spawn_costs": {
     "minecraft:enderman": {

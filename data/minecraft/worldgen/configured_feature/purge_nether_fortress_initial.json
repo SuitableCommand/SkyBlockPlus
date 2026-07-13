@@ -37,7 +37,7 @@
           "Name": "minecraft:air"
         }
       ],
-			"cannot_replace": "#minecraft:purge_nether_fortress/initial",
+      "cannot_replace": "#minecraft:purge_nether_fortress/initial",
       "invalid_blocks": "#minecraft:purge_nether_fortress/invalid"
     },
     "layers": {

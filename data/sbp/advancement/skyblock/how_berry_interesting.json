@@ -18,7 +18,7 @@
         ]
       }
     },
-		"minecraft:glow_berries": {
+    "minecraft:glow_berries": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -30,7 +30,7 @@
     }
   },
   "requirements": [
-		["minecraft:sweet_berries"],
-		["minecraft:glow_berries"]
+    ["minecraft:sweet_berries"],
+    ["minecraft:glow_berries"]
   ]
 }

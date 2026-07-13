@@ -18,7 +18,7 @@
         ]
       }
     },
-		"minecraft:poppy": {
+    "minecraft:poppy": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -28,7 +28,7 @@
         ]
       }
     },
-		"minecraft:blue_orchid": {
+    "minecraft:blue_orchid": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -38,7 +38,7 @@
         ]
       }
     },
-		"minecraft:allium": {
+    "minecraft:allium": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -48,7 +48,7 @@
         ]
       }
     },
-		"minecraft:azure_bluet": {
+    "minecraft:azure_bluet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -58,7 +58,7 @@
         ]
       }
     },
-		"minecraft:red_tulip": {
+    "minecraft:red_tulip": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -68,7 +68,7 @@
         ]
       }
     },
-		"minecraft:orange_tulip": {
+    "minecraft:orange_tulip": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -78,7 +78,7 @@
         ]
       }
     },
-		"minecraft:white_tulip": {
+    "minecraft:white_tulip": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -88,7 +88,7 @@
         ]
       }
     },
-		"minecraft:pink_tulip": {
+    "minecraft:pink_tulip": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -98,7 +98,7 @@
         ]
       }
     },
-		"minecraft:oxeye_daisy": {
+    "minecraft:oxeye_daisy": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -108,7 +108,7 @@
         ]
       }
     },
-		"minecraft:cornflower": {
+    "minecraft:cornflower": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -118,7 +118,7 @@
         ]
       }
     },
-		"minecraft:lily_of_the_valley": {
+    "minecraft:lily_of_the_valley": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -128,7 +128,7 @@
         ]
       }
     },
-		"minecraft:torchflower": {
+    "minecraft:torchflower": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -138,7 +138,7 @@
         ]
       }
     },
-		"minecraft:pitcher_plant": {
+    "minecraft:pitcher_plant": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -148,7 +148,7 @@
         ]
       }
     },
-		"minecraft:closed_eyeblossom": {
+    "minecraft:closed_eyeblossom": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -158,7 +158,7 @@
         ]
       }
     },
-		"minecraft:open_eyeblossom": {
+    "minecraft:open_eyeblossom": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -168,7 +168,7 @@
         ]
       }
     },
-		"minecraft:wither_rose": {
+    "minecraft:wither_rose": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -178,7 +178,7 @@
         ]
       }
     },
-		"minecraft:pink_petals": {
+    "minecraft:pink_petals": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -188,7 +188,7 @@
         ]
       }
     },
-		"minecraft:sunflower": {
+    "minecraft:sunflower": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -198,7 +198,7 @@
         ]
       }
     },
-		"minecraft:lilac": {
+    "minecraft:lilac": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -208,7 +208,7 @@
         ]
       }
     },
-		"minecraft:rose_bush": {
+    "minecraft:rose_bush": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -218,7 +218,7 @@
         ]
       }
     },
-		"minecraft:peony": {
+    "minecraft:peony": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -228,7 +228,7 @@
         ]
       }
     },
-		"minecraft:wildflowers": {
+    "minecraft:wildflowers": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -238,7 +238,7 @@
         ]
       }
     },
-		"minecraft:cactus_flower": {
+    "minecraft:cactus_flower": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -250,29 +250,29 @@
     }
   },
   "requirements": [
-		["minecraft:dandelion"],
-		["minecraft:poppy"],
-		["minecraft:blue_orchid"],
-		["minecraft:allium"],
-		["minecraft:azure_bluet"],
-		["minecraft:red_tulip"],
-		["minecraft:orange_tulip"],
-		["minecraft:white_tulip"],
-		["minecraft:pink_tulip"],
-		["minecraft:oxeye_daisy"],
-		["minecraft:cornflower"],
-		["minecraft:lily_of_the_valley"],
-		["minecraft:torchflower"],
-		["minecraft:pitcher_plant"],
-		["minecraft:closed_eyeblossom"],
-		["minecraft:open_eyeblossom"],
-		["minecraft:wither_rose"],
-		["minecraft:pink_petals"],
-		["minecraft:sunflower"],
-		["minecraft:lilac"],
-		["minecraft:rose_bush"],
-		["minecraft:peony"],
-		["minecraft:wildflowers"],
-		["minecraft:cactus_flower"]
+    ["minecraft:dandelion"],
+    ["minecraft:poppy"],
+    ["minecraft:blue_orchid"],
+    ["minecraft:allium"],
+    ["minecraft:azure_bluet"],
+    ["minecraft:red_tulip"],
+    ["minecraft:orange_tulip"],
+    ["minecraft:white_tulip"],
+    ["minecraft:pink_tulip"],
+    ["minecraft:oxeye_daisy"],
+    ["minecraft:cornflower"],
+    ["minecraft:lily_of_the_valley"],
+    ["minecraft:torchflower"],
+    ["minecraft:pitcher_plant"],
+    ["minecraft:closed_eyeblossom"],
+    ["minecraft:open_eyeblossom"],
+    ["minecraft:wither_rose"],
+    ["minecraft:pink_petals"],
+    ["minecraft:sunflower"],
+    ["minecraft:lilac"],
+    ["minecraft:rose_bush"],
+    ["minecraft:peony"],
+    ["minecraft:wildflowers"],
+    ["minecraft:cactus_flower"]
   ]
 }

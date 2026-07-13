@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:oak_sapling"
     },
-		"frame": "goal",
+    "frame": "goal",
     "title": "It's Oakay Now",
     "description": "Buy some oak or dark oak saplings from a wandering trader"
   },
@@ -19,7 +19,7 @@
         ]
       }
     },
-		"minecraft:dark_oak_sapling": {
+    "minecraft:dark_oak_sapling": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -33,7 +33,7 @@
   "requirements": [
     [
       "minecraft:oak_sapling",
-			"minecraft:dark_oak_sapling"
+      "minecraft:dark_oak_sapling"
     ]
   ]
 }

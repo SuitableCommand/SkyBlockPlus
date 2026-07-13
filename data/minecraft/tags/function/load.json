@@ -1,6 +1,5 @@
 {
   "values":[
-    "math:init",
-	  "sbp:init"
+    "sbp:init"
   ]
 }

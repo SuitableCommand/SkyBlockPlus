@@ -45,7 +45,7 @@
         "minCount": 2,
         "weight": 4
       },
-			{
+      {
         "type": "minecraft:camel",
         "maxCount": 1,
         "minCount": 1,

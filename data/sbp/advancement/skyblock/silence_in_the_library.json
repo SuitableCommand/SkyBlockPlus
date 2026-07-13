@@ -1,6 +1,6 @@
 {
   "parent": "sbp:skyblock/saving_you_from_myself",
-	"display": {
+  "display": {
     "icon": {
       "id": "minecraft:enchanted_book",
       "components": {
@@ -26,7 +26,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-		"swift_sneak_2": {
+    "swift_sneak_2": {
       "conditions": {
         "items": [
           {
@@ -41,7 +41,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-		"swift_sneak_3": {
+    "swift_sneak_3": {
       "conditions": {
         "items": [
           {
@@ -60,8 +60,8 @@
   "requirements": [
     [
       "swift_sneak_1",
-			"swift_sneak_2",
-			"swift_sneak_3"
+      "swift_sneak_2",
+      "swift_sneak_3"
     ]
   ]
 }

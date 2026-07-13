@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:wet_sponge"
     },
-		"frame": "challenge",
+    "frame": "challenge",
     "title": "Promotion",
     "description": "Strike a guardian with lightning"
   },

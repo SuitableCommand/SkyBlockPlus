@@ -1,5 +1,5 @@
 {
-	"display": {
+  "display": {
     "icon": {
       "id": "minecraft:soul_soil"
     },
@@ -8,7 +8,7 @@
   },
   "parent": "sbp:nether/exotic_goods",
   "criteria": {
-		"minecraft:crimson_fungus": {
+    "minecraft:crimson_fungus": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,7 +20,7 @@
         ]
       }
     },
-		"minecraft:warped_fungus": {
+    "minecraft:warped_fungus": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -34,7 +34,7 @@
     }
   },
   "requirements": [
-		["minecraft:crimson_fungus"],
-		["minecraft:warped_fungus"]
+    ["minecraft:crimson_fungus"],
+    ["minecraft:warped_fungus"]
   ]
 }

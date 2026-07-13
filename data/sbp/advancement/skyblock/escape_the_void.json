@@ -1,7 +1,7 @@
 {
   "criteria": {
     "in_nether": {
-			"trigger": "minecraft:location",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -17,11 +17,11 @@
       }
     }
   },
-	"parent": "sbp:skyblock/hot_hot",
+  "parent": "sbp:skyblock/hot_hot",
   "display": {
     "announce_to_chat": true,
     "description": "Light and enter a nether portal",
-		"frame": "goal",
+    "frame": "goal",
     "icon": {
       "count": 1,
       "id": "minecraft:obsidian"

@@ -1,7 +1,7 @@
 {
-	"values": [
-		"minecraft:swamp",
-		"minecraft:mangrove_swamp",
-		"minecraft:deep_dark"
-	]
+  "values": [
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "minecraft:deep_dark"
+  ]
 }

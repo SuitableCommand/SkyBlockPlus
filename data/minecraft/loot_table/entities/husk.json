@@ -61,7 +61,7 @@
         }
       ],
       "conditions": [
-				{
+        {
           "condition": "minecraft:inverted",
           "term": {
             "condition": "minecraft:location_check",
@@ -72,7 +72,7 @@
         }
       ]
     },
-		{
+    {
       "rolls": 1,
       "bonus_rolls": 0,
       "entries": [
@@ -105,7 +105,7 @@
         {
           "condition": "minecraft:killed_by_player"
         },
-				{
+        {
           "condition": "minecraft:location_check",
           "predicate": {
             "dimension": "minecraft:the_nether"

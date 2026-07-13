@@ -5,16 +5,16 @@
   "ingredients": [
     "minecraft:dragon_breath",
     "#sbp:end_stone_convertable",
-		"#sbp:end_stone_convertable",
-		"#sbp:end_stone_convertable",
-		"#sbp:end_stone_convertable",
-		"#sbp:end_stone_convertable",
-		"#sbp:end_stone_convertable",
-		"#sbp:end_stone_convertable",
-		"#sbp:end_stone_convertable"
+    "#sbp:end_stone_convertable",
+    "#sbp:end_stone_convertable",
+    "#sbp:end_stone_convertable",
+    "#sbp:end_stone_convertable",
+    "#sbp:end_stone_convertable",
+    "#sbp:end_stone_convertable",
+    "#sbp:end_stone_convertable"
   ],
   "result": {
     "id": "minecraft:end_stone",
-		"count": 8
+    "count": 8
   }
 }

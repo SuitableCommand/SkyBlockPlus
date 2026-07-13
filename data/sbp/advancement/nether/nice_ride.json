@@ -18,7 +18,7 @@
         ]
       }
     },
-		"minecraft:golden_horse_armor": {
+    "minecraft:golden_horse_armor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -28,7 +28,7 @@
         ]
       }
     },
-		"minecraft:iron_horse_armor": {
+    "minecraft:iron_horse_armor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -38,7 +38,7 @@
         ]
       }
     },
-		"minecraft:diamond_horse_armor": {
+    "minecraft:diamond_horse_armor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -48,7 +48,7 @@
         ]
       }
     },
-		"minecraft:copper_horse_armor": {
+    "minecraft:copper_horse_armor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -58,7 +58,7 @@
         ]
       }
     },
-		"minecraft:netherite_horse_armor": {
+    "minecraft:netherite_horse_armor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -70,11 +70,11 @@
     }
   },
   "requirements": [
-		["minecraft:leather_horse_armor"],
-		["minecraft:golden_horse_armor"],
-		["minecraft:iron_horse_armor"],
-		["minecraft:diamond_horse_armor"],
-		["minecraft:copper_horse_armor"],
-		["minecraft:netherite_horse_armor"]
+    ["minecraft:leather_horse_armor"],
+    ["minecraft:golden_horse_armor"],
+    ["minecraft:iron_horse_armor"],
+    ["minecraft:diamond_horse_armor"],
+    ["minecraft:copper_horse_armor"],
+    ["minecraft:netherite_horse_armor"]
   ]
 }

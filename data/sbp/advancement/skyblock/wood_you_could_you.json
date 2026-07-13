@@ -18,7 +18,7 @@
         ]
       }
     },
-		"minecraft:dark_oak_log": {
+    "minecraft:dark_oak_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -28,7 +28,7 @@
         ]
       }
     },
-		"minecraft:pale_oak_log": {
+    "minecraft:pale_oak_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -38,7 +38,7 @@
         ]
       }
     },
-		"minecraft:acacia_log": {
+    "minecraft:acacia_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -48,7 +48,7 @@
         ]
       }
     },
-		"minecraft:jungle_log": {
+    "minecraft:jungle_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -58,7 +58,7 @@
         ]
       }
     },
-		"minecraft:spruce_log": {
+    "minecraft:spruce_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -68,7 +68,7 @@
         ]
       }
     },
-		"minecraft:cherry_log": {
+    "minecraft:cherry_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -78,7 +78,7 @@
         ]
       }
     },
-		"minecraft:birch_log": {
+    "minecraft:birch_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -88,7 +88,7 @@
         ]
       }
     },
-		"minecraft:mangrove_log": {
+    "minecraft:mangrove_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -98,7 +98,7 @@
         ]
       }
     },
-		"minecraft:bamboo_block": {
+    "minecraft:bamboo_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -108,7 +108,7 @@
         ]
       }
     },
-		"minecraft:crimson_stem": {
+    "minecraft:crimson_stem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -118,7 +118,7 @@
         ]
       }
     },
-		"minecraft:warped_stem": {
+    "minecraft:warped_stem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -130,17 +130,17 @@
     }
   },
   "requirements": [
-		["minecraft:oak_log"],
-		["minecraft:dark_oak_log"],
-		["minecraft:pale_oak_log"],
-		["minecraft:acacia_log"],
-		["minecraft:jungle_log"],
-		["minecraft:spruce_log"],
-		["minecraft:cherry_log"],
-		["minecraft:birch_log"],
-		["minecraft:mangrove_log"],
-		["minecraft:bamboo_block"],
-		["minecraft:crimson_stem"],
-		["minecraft:warped_stem"]
+    ["minecraft:oak_log"],
+    ["minecraft:dark_oak_log"],
+    ["minecraft:pale_oak_log"],
+    ["minecraft:acacia_log"],
+    ["minecraft:jungle_log"],
+    ["minecraft:spruce_log"],
+    ["minecraft:cherry_log"],
+    ["minecraft:birch_log"],
+    ["minecraft:mangrove_log"],
+    ["minecraft:bamboo_block"],
+    ["minecraft:crimson_stem"],
+    ["minecraft:warped_stem"]
   ]
 }

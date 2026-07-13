@@ -18,7 +18,7 @@
         ]
       }
     },
-		"minecraft:lava_bucket": {
+    "minecraft:lava_bucket": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -28,7 +28,7 @@
         ]
       }
     },
-		"minecraft:powder_snow_bucket": {
+    "minecraft:powder_snow_bucket": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -38,7 +38,7 @@
         ]
       }
     },
-		"minecraft:milk_bucket": {
+    "minecraft:milk_bucket": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -48,7 +48,7 @@
         ]
       }
     },
-		"minecraft:cod_bucket": {
+    "minecraft:cod_bucket": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -58,7 +58,7 @@
         ]
       }
     },
-		"minecraft:salmon_bucket": {
+    "minecraft:salmon_bucket": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -68,7 +68,7 @@
         ]
       }
     },
-		"minecraft:tropical_fish_bucket": {
+    "minecraft:tropical_fish_bucket": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -78,7 +78,7 @@
         ]
       }
     },
-		"minecraft:pufferfish_bucket": {
+    "minecraft:pufferfish_bucket": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -88,7 +88,7 @@
         ]
       }
     },
-		"minecraft:axolotl_bucket": {
+    "minecraft:axolotl_bucket": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -98,7 +98,7 @@
         ]
       }
     },
-		"minecraft:tadpole_bucket": {
+    "minecraft:tadpole_bucket": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -108,7 +108,7 @@
         ]
       }
     },
-		"minecraft:sulfur_cube_bucket": {
+    "minecraft:sulfur_cube_bucket": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -121,15 +121,15 @@
   },
   "requirements": [
     ["minecraft:water_bucket"],
-		["minecraft:lava_bucket"],
-		["minecraft:powder_snow_bucket"],
-		["minecraft:milk_bucket"],
-		["minecraft:cod_bucket"],
-		["minecraft:salmon_bucket"],
-		["minecraft:tropical_fish_bucket"],
-		["minecraft:pufferfish_bucket"],
-		["minecraft:axolotl_bucket"],
-		["minecraft:tadpole_bucket"],
+    ["minecraft:lava_bucket"],
+    ["minecraft:powder_snow_bucket"],
+    ["minecraft:milk_bucket"],
+    ["minecraft:cod_bucket"],
+    ["minecraft:salmon_bucket"],
+    ["minecraft:tropical_fish_bucket"],
+    ["minecraft:pufferfish_bucket"],
+    ["minecraft:axolotl_bucket"],
+    ["minecraft:tadpole_bucket"],
     ["minecraft:sulfur_cube_bucket"]
   ]
 }

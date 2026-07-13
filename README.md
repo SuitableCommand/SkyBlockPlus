@@ -57,7 +57,7 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 * soul sand (2-8) (weight 40)
 * soul soil (2-8) (weight 40)
 * nether brick (8-16) (weight 40)
-* gravel (8-16)
+* gravel (8-16) (weight 40)
 * blackstone (8-16) (weight 40)
 * cinnabar (8-16) (weight 40)
 
@@ -119,7 +119,7 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Calcite.** Now blastable from nautilus shells.
 
-**Diamond.** Now blastable from coal blocks (takes 100x longer than other recipes to finish blasting)
+**Diamond.** Now blastable from coal blocks (takes 100x as long as other recipes to finish blasting)
 
 ### Smoking
 

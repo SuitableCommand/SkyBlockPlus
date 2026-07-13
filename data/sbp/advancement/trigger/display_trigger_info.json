@@ -6,8 +6,8 @@
     }
   },
   "requirements": [
-		["minecraft:tick"]
-	],
+    ["minecraft:tick"]
+  ],
   "rewards": {
     "function": "sbp:trigger/info"
   }

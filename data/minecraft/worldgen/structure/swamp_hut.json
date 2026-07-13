@@ -1,7 +1,6 @@
 {
   "type": "minecraft:jigsaw",
   "biomes": "#minecraft:has_structure/swamp_hut",
-  "spawn_overrides": {},
   "start_pool": "minecraft:swamp_huts",
   "size": 6,
   "step": "surface_structures",

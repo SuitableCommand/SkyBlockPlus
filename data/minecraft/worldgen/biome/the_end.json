@@ -4,7 +4,23 @@
   "effects": {
     "water_color": "#3f76e4"
   },
-  "features": [],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:end_spike"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:end_platform"
+    ]
+  ],
   "has_precipitation": false,
   "spawn_costs": {},
   "spawners": {

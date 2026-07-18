@@ -21,6 +21,6 @@ execute store result score #temp constant run data get entity @s Pos[2] 1
 scoreboard players operation #temp constant += #random constant
 execute store result entity @e[tag=end_stone_converter,limit=1] Pos[2] float 1 run scoreboard players get #temp constant
 
-execute as @e[tag=end_stone_converter,limit=1] at @s run setblock ~ ~ ~ end_stone replace
-execute as @e[tag=end_stone_converter,limit=1] at @s run advancement grant @a[distance=..10] only sbp:end/corrupting_breath
+execute as @e[tag=end_stone_converter,limit=1] at @s if block ~ ~ ~ #sbp:end_stone_convertable_blocks run advancement grant @a[distance=..10] only sbp:end/corrupting_breath
+execute as @e[tag=end_stone_converter,limit=1] at @s if block ~ ~ ~ #sbp:end_stone_convertable_blocks run setblock ~ ~ ~ end_stone replace
 kill @e[tag=end_stone_converter]

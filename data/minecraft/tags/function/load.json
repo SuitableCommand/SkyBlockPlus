@@ -1,5 +1,7 @@
 {
   "values":[
+    "math:init",
+    "worldjoinprompt:init",
     "sbp:init"
   ]
 }

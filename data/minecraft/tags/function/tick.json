@@ -1,5 +1,7 @@
 {
   "values":[
+    "math:main",
+    "worldjoinprompt:main",
     "sbp:main"
   ]
 }

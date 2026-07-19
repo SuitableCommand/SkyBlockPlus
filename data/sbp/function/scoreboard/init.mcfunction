@@ -2,7 +2,6 @@
 scoreboard objectives add uuid dummy
 scoreboard objectives add constant dummy
 scoreboard objectives add vex_rally_delay dummy
-scoreboard objectives add left_world minecraft.custom:minecraft.leave_game
 
 ## assign constants
 scoreboard players set #cave_spider_weaving_chance constant 10

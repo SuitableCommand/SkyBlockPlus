@@ -1,5 +1,4 @@
 function sbp:trigger/enable_triggers
-execute as @a[scores={left_world=1..}] run function sbp:advancement/revoke/trigger/display_trigger_info
 
 ### check for any players waiting on locate biome responses from last cycle
 execute as @a[tag=searching_for_biome] at @s run function sbp:trigger/biome/report/main
@@ -74,7 +73,6 @@ execute as @a[scores={findbiome_wooded_badlands=1..}] at @s run function sbp:tri
 
 execute as @a[scores={findstructure_ancient_city=1..}] at @s run function sbp:trigger/structure/ancient_city
 execute as @a[scores={findstructure_bastion_remnant=1..}] at @s run function sbp:trigger/structure/bastion_remnant
-execute as @a[scores={findstructure_end_city=1..}] at @s run function sbp:trigger/structure/end_city
 execute as @a[scores={findstructure_fortress=1..}] at @s run function sbp:trigger/structure/fortress
 execute as @a[scores={findstructure_monument=1..}] at @s run function sbp:trigger/structure/monument
 execute as @a[scores={findstructure_pillager_outpost=1..}] at @s run function sbp:trigger/structure/pillager_outpost

@@ -20,7 +20,7 @@
           "type": "minecraft:item",
           "name": "minecraft:stone_shovel"
         },
-				{
+        {
           "type": "minecraft:item",
           "name": "minecraft:lava_bucket"
         }

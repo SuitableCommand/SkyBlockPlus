@@ -1,0 +1,1 @@
+execute in minecraft:the_end unless data storage minecraft:skyblock_plus {dragon_status:"alive"} if entity @e[type=ender_dragon] run data modify storage minecraft:skyblock_plus dragon_status set value "alive"

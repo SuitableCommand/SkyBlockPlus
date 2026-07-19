@@ -1,8 +1,8 @@
 {
 	"pack": {
-		"min_format": 94.1,
-		"max_format": 94.1,
-		"description": "SkyBlock Plus datapack (1.21.11) by SuitableCommand"
+		"min_format": 107.1,
+		"max_format": 107.1,
+		"description": "SkyBlock Plus (26.2) by SuitableCommand"
 	},
 	"filter": {
 		"block": [
@@ -29,6 +29,78 @@
 			{
 				"namespace": "minecraft",
 				"path": "recipe/netherite_upgrade_smithing_template"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/sentry_armor_trim_smithing_template"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/vex_armor_trim_smithing_template"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/wild_armor_trim_smithing_template"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/coast_armor_trim_smithing_template"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/dune_armor_trim_smithing_template"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/wayfinder_armor_trim_smithing_template"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/raiser_armor_trim_smithing_template"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/shaper_armor_trim_smithing_template"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/host_armor_trim_smithing_template"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/ward_armor_trim_smithing_template"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/silence_armor_trim_smithing_template"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/tide_armor_trim_smithing_template"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/snout_armor_trim_smithing_template"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/rib_armor_trim_smithing_template"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/eye_armor_trim_smithing_template"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/spire_armor_trim_smithing_template"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/flow_armor_trim_smithing_template"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/bolt_armor_trim_smithing_template"
 			}
 		]
 	}

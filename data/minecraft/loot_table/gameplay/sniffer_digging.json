@@ -74,7 +74,7 @@
             }
           ]
         },
-				{
+        {
           "type": "minecraft:item",
           "name": "minecraft:crimson_fungus",
           "weight": 30,
@@ -177,7 +177,7 @@
             }
           ]
         },
-				{
+        {
           "type": "minecraft:item",
           "name": "minecraft:ghast_tear",
           "weight": 50,
@@ -687,6 +687,7 @@
             },
             {
               "condition": "minecraft:time_check",
+              "clock": "minecraft:overworld",
               "value": {
                 "min": 0,
                 "max": 11999
@@ -720,6 +721,7 @@
             },
             {
               "condition": "minecraft:time_check",
+              "clock": "minecraft:overworld",
               "value": {
                 "min": 12000,
                 "max": 23999
@@ -885,7 +887,7 @@
             }
           ]
         },
-				{
+        {
           "type": "minecraft:item",
           "name": "minecraft:chorus_flower",
           "weight": 1,
@@ -906,7 +908,7 @@
             }
           ]
         },
-				{
+        {
           "type": "minecraft:item",
           "name": "minecraft:chorus_fruit",
           "weight": 10,
@@ -927,7 +929,7 @@
             }
           ]
         },
-				{
+        {
           "type": "minecraft:item",
           "name": "minecraft:popped_chorus_fruit",
           "weight": 5,

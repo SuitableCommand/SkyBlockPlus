@@ -1,1 +1,0 @@
-execute as @e[type=minecraft:lightning_bolt,tag=!elder_guardian_conversion_processed] at @s run function sbp:lightning_conversion/elder_guardian/try

@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:oak_boat"
     },
-		"frame": "challenge",
+    "frame": "challenge",
     "title": "Like A Dream",
     "description": "Ride a boat atop a ghast"
   },

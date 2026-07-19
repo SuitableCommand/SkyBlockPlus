@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:blaze_rod"
     },
-		"frame": "goal",
+    "frame": "goal",
     "title": "Fire Fighter",
     "description": "Travel to a nether fortress and kill a blaze"
   },
@@ -17,7 +17,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:blaze"
+              "minecraft:entity_type": "minecraft:blaze"
             }
           }
         ]

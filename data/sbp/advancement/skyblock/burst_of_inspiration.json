@@ -1,6 +1,6 @@
 {
   "parent": "sbp:skyblock/fishful_thinking",
-	"display": {
+  "display": {
     "icon": {
       "id": "minecraft:enchanted_book",
       "components": {

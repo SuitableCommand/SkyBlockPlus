@@ -51,6 +51,7 @@ scoreboard objectives add findbiome_soul_sand_valley trigger
 scoreboard objectives add findbiome_sparse_jungle trigger
 scoreboard objectives add findbiome_stony_peaks trigger
 scoreboard objectives add findbiome_stony_shore trigger
+scoreboard objectives add findbiome_sulfur_caves trigger
 scoreboard objectives add findbiome_sunflower_plains trigger
 scoreboard objectives add findbiome_swamp trigger
 scoreboard objectives add findbiome_taiga trigger

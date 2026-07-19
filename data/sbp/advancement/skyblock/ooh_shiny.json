@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:iron_ingot"
     },
-		"frame": "goal",
+    "frame": "goal",
     "title": "Ooh, Shiny!",
     "description": "Get iron from a zombie"
   },

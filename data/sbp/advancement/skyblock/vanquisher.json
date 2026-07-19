@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:wooden_sword"
     },
-		"frame": "goal",
+    "frame": "goal",
     "title": "Vanquisher",
     "description": "Kill something"
 

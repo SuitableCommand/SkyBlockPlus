@@ -4,7 +4,7 @@
       "id": "minecraft:dragon_egg"
     },
     "title": "Is This Edible?",
-		"frame": "challenge",
+    "frame": "challenge",
     "description": "Acquire a dragon egg"
   },
   "parent": "sbp:end/thats_no_endermite",

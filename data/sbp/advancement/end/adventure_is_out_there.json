@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:spire_armor_trim_smithing_template"
     },
-		"frame": "challenge",
+    "frame": "challenge",
     "title": "Adventure Is Out There!",
     "description": "Travel far and wide to purchase every armor trim from master armorers"
   },
@@ -19,7 +19,7 @@
         ]
       }
     },
-		"minecraft:vex": {
+    "minecraft:vex": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -29,7 +29,7 @@
         ]
       }
     },
-		"minecraft:wild": {
+    "minecraft:wild": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -39,7 +39,7 @@
         ]
       }
     },
-		"minecraft:coast": {
+    "minecraft:coast": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -49,7 +49,7 @@
         ]
       }
     },
-		"minecraft:dune": {
+    "minecraft:dune": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -59,7 +59,7 @@
         ]
       }
     },
-		"minecraft:wayfinder": {
+    "minecraft:wayfinder": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -69,7 +69,7 @@
         ]
       }
     },
-		"minecraft:raiser": {
+    "minecraft:raiser": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -79,7 +79,7 @@
         ]
       }
     },
-		"minecraft:shaper": {
+    "minecraft:shaper": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -89,7 +89,7 @@
         ]
       }
     },
-		"minecraft:host": {
+    "minecraft:host": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -99,7 +99,7 @@
         ]
       }
     },
-		"minecraft:ward": {
+    "minecraft:ward": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -109,7 +109,7 @@
         ]
       }
     },
-		"minecraft:silence": {
+    "minecraft:silence": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -119,7 +119,7 @@
         ]
       }
     },
-		"minecraft:tide": {
+    "minecraft:tide": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -129,7 +129,7 @@
         ]
       }
     },
-		"minecraft:snout": {
+    "minecraft:snout": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -139,7 +139,7 @@
         ]
       }
     },
-		"minecraft:rib": {
+    "minecraft:rib": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -149,7 +149,7 @@
         ]
       }
     },
-		"minecraft:eye": {
+    "minecraft:eye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -159,7 +159,7 @@
         ]
       }
     },
-		"minecraft:spire": {
+    "minecraft:spire": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -169,7 +169,7 @@
         ]
       }
     },
-		"minecraft:flow": {
+    "minecraft:flow": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -179,7 +179,7 @@
         ]
       }
     },
-		"minecraft:bolt": {
+    "minecraft:bolt": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -191,23 +191,23 @@
     }
   },
   "requirements": [
-		["minecraft:sentry"],
-		["minecraft:vex"],
-		["minecraft:wild"],
-		["minecraft:coast"],
-		["minecraft:dune"],
-		["minecraft:wayfinder"],
-		["minecraft:raiser"],
-		["minecraft:shaper"],
-		["minecraft:host"],
-		["minecraft:ward"],
-		["minecraft:silence"],
-		["minecraft:tide"],
-		["minecraft:snout"],
-		["minecraft:rib"],
-		["minecraft:eye"],
-		["minecraft:spire"],
-		["minecraft:flow"],
-		["minecraft:bolt"]
+    ["minecraft:sentry"],
+    ["minecraft:vex"],
+    ["minecraft:wild"],
+    ["minecraft:coast"],
+    ["minecraft:dune"],
+    ["minecraft:wayfinder"],
+    ["minecraft:raiser"],
+    ["minecraft:shaper"],
+    ["minecraft:host"],
+    ["minecraft:ward"],
+    ["minecraft:silence"],
+    ["minecraft:tide"],
+    ["minecraft:snout"],
+    ["minecraft:rib"],
+    ["minecraft:eye"],
+    ["minecraft:spire"],
+    ["minecraft:flow"],
+    ["minecraft:bolt"]
   ]
 }

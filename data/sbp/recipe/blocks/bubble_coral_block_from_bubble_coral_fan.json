@@ -1,11 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "blocks",
+  "category": "building",
   "group": "bubble_coral_block",
   "pattern": [
     "XXX",
     "XXX",
-		"XXX"
+    "XXX"
   ],
   "key": {
     "X": "minecraft:bubble_coral_fan"

@@ -1,7 +1,7 @@
 {
-	"display": {
+  "display": {
     "description": "Fully power a beacon while riding a pig",
-		"frame": "challenge",
+    "frame": "challenge",
     "icon": {
       "count": 1,
       "id": "minecraft:beacon"
@@ -15,7 +15,7 @@
       "conditions": {
         "player": {
           "vehicle": {
-            "type": "minecraft:pig"
+            "minecraft:entity_type": "minecraft:pig"
           }
         },
         "level": 4

@@ -3,11 +3,11 @@
     "icon": {
       "id": "minecraft:enchanted_golden_apple"
     },
-		"frame": "challenge",
+    "frame": "challenge",
     "title": "Apple of my Eye",
     "description": "Buy an enchanted golden apple from a wandering trader"
   },
-  "parent": "sbp:nether/crushing_it",
+  "parent": "sbp:nether/super_smelting",
   "criteria": {
     "minecraft:enchanted_golden_apple": {
       "trigger": "minecraft:inventory_changed",

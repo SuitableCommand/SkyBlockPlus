@@ -11,6 +11,8 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Nether Wart Block.** Now drops nether wart with the same distribution that a melon block drops melon, or a nether wart block if mined using a tool enchanted with Silk Touch.
 
+**Budding Amethyst.** Now drops itself in item form when mined using silk touch.
+
 **Allay.** Now drops an amethyst shard.
 
 **Bat.** Now drops an echo shard if killed by a warden's sonic blast attack.
@@ -43,7 +45,21 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Fishing (treasure).** Sniffer eggs are now a treasure item when fishing in a warm ocean biome, and enchanted books fished up from a windswept biome may now contain Wind Burst.
 
-**Piglin Bartering.** Piglins no longer give dried ghasts when bartering. Piglins now have a chance to give soul soil when bartering.
+**Piglin Bartering.** Piglins have an updated loot table as described below.
+* Enchanted Book (Soul Speed I-III) (weight 5)
+* Potion of Fire Resistance (weight 8)
+* Splash Potion of Fire Resistance (weight 8)
+* Ender Pearl (2-4) (weight 10)
+* quartz (5-12) (weight 20)
+* obsidian (weight 40)
+* crying obsidian (1-3) (weight 40)
+* leather (2-4) (weight 40)
+* soul sand (2-8) (weight 40)
+* soul soil (2-8) (weight 40)
+* nether brick (8-16) (weight 40)
+* gravel (8-16) (weight 40)
+* blackstone (8-16) (weight 40)
+* cinnabar (8-16) (weight 40)
 
 **Sniffer Digging.** Sniffers now dig up wheat seeds or any flowers that would normally generate naturally in the biome where it is digging. It also has a chance of digging up special items under specific conditions:
 * gold nugget (when digging in soul soil, netherrack, crimson nylium, or warped nylium in the nether)
@@ -63,11 +79,11 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 ### Crafting
 
+**Armor Trims.** Armor trims can no longer be duplicated via crafting.
+
 **Budding Amethyst.** Now craftable using amethyst blocks and an echo shard.
 
 **Brewing Stand.** Now only craftable using cobblestone.
-
-**Cobweb.** Now craftable using string and slimeballs.
 
 **Copper Horse Armor.** Now craftable using leather horse armor and copper ingots.
 
@@ -103,49 +119,45 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Calcite.** Now blastable from nautilus shells.
 
+**Diamond.** Now blastable from coal blocks (takes 100x as long as other recipes to finish blasting)
+
 ### Smoking
 
 **Dead Bush.** Now smokable from any sapling.
 
-### Smithing
-
-**Diamond Horse Armor.** Now smithable using leather horse armor and 2 diamonds.
-
-**Golden Horse Armor.** Now smithable using leather horse armor and 2 gold ingots.
-
-**Iron Horse Armor.** Now smithable using leather horse armor and 2 iron ingots.
-
 ### Trades
 
-**Armorer.** Now replicates the trades from the experimental villager trade rebalance, and offer a trim based on biome/dimension where the armorer becomes a master:
-* Sentry (plains biomes / default)
-* Vex (non-windswept forest biomes)
+**Armorer.** Now partially replicates the trades from the experimental villager trade rebalance, and may offer a trim as a master trade based on the biome where the armorer becomes a master:
+* Sentry (pillager outpost biomes)
+* Vex (dark forest biome)
 * Wild (jungle biomes)
-* Coast (snowy biomes)
-* Dune (desert biomes)
-* Wayfinder (non-windswept savanna biomes)
-* Raiser (swamp biomes)
-* Shaper (taiga biomes)
-* Host (taiga biomes)
+* Coast (beach and river biomes)
+* Dune (desert and badland biomes)
+* Wayfinder (trail ruins biomes)
+* Raiser (trail ruins biomes)
+* Shaper (trail ruins biomes)
+* Host (trail ruins biomes)
 * Ward (deep dark biome)
 * Silence (deep dark biome)
 * Tide (ocean biomes)
-* Snout (nether dimension)
-* Rib (nether dimension)
-* Eye (end dimension)
-* Spire (end dimension)
+* Snout (nether biomes)
+* Rib (nether biomes)
+* Eye (end biomes)
+* Spire (end highlands)
 * Flow (windswept biomes)
 * Bolt (windswept biomes)
 
-**Mason.** Now offers a random pottery sherd as an expert trade.
+**Mason.** Now offers a random pottery sherd as a master trade.
 
-**Wandering Trader.** Now offers an additional trade, selling sweet berries, glow berries, or an enchanted golden apple. Also replaces podzol trades with mycelium trades, and wheat seeds trades with cocoa beans trades.
+**Wandering Trader.** Possible trades now include cocoa beans, mycelium, sweet berries, glow berries, and enchanted golden apples. The enchanted pickaxe trade has been removed.
 
 ### Mob Spawning
 
 **Allay.** Now created when a goat horn is used near a vex.
 
 **Breeze.** Now occasionally spawn in any windswept biome.
+
+**Cave Spider.** Cave spiders have a small chance to spawn with the weaving potion effect.
 
 **Elder Guardian.** Now created when a guardian is struck by lightning.
 

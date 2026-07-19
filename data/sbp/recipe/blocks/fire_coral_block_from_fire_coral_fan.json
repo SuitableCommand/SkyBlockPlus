@@ -1,11 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "blocks",
+  "category": "building",
   "group": "fire_coral_block",
   "pattern": [
     "XXX",
     "XXX",
-		"XXX"
+    "XXX"
   ],
   "key": {
     "X": "minecraft:fire_coral_fan"
